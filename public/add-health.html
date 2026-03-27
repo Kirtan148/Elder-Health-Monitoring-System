@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Health Data</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <script src="/js/app.js" defer></script>
+</head>
+<body data-page="add-health">
+  <div class="page-shell">
+    <div id="app-nav"></div>
+
+    <section class="card">
+      <h1>Manage Patients</h1>
+      <p class="small-text">Add a new patient or update an existing patient name.</p>
+
+      <form id="add-patient-form" class="form-grid">
+        <div>
+          <label for="patient-name">New Patient Name</label>
+          <input id="patient-name" name="name" type="text" required>
+        </div>
+
+        <button type="submit">Add Patient</button>
+      </form>
+
+      <form id="edit-patient-form" class="form-grid">
+        <div>
+          <label for="edit-patient-id">Edit Patient</label>
+          <select id="edit-patient-id" name="patientId" required>
+            <option value="">Loading patients...</option>
+          </select>
+          <p class="small-text">Selected patientId: <span id="selected-edit-patient-id">Not selected</span></p>
+        </div>
+
+        <div>
+          <label for="edit-patient-name">Updated Name</label>
+          <input id="edit-patient-name" name="name" type="text" required>
+        </div>
+
+        <button class="secondary" type="submit">Update Patient</button>
+      </form>
+
+      <div id="patient-management-message" class="message hidden"></div>
+    </section>
+
+    <section class="card">
+      <h2>Add Health Data</h2>
+      <p class="small-text">This page is available only for care managers.</p>
+
+      <form id="health-form" class="form-grid">
+        <div>
+          <label for="patientId">Patient</label>
+          <select id="patientId" name="patientId" required>
+            <option value="">Loading patients...</option>
+          </select>
+          <p class="small-text">Selected patientId: <span id="selected-patient-id">Not selected</span></p>
+        </div>
+
+        <div>
+          <label for="heartRate">Heart Rate</label>
+          <input id="heartRate" name="heartRate" type="number" required>
+        </div>
+
+        <div>
+          <label for="oxygen">Oxygen</label>
+          <input id="oxygen" name="oxygen" type="number" required>
+        </div>
+
+        <div>
+          <label for="bp">Blood Pressure</label>
+          <input id="bp" name="bp" type="text" placeholder="120/80" required>
+        </div>
+
+        <button type="submit">Save Health Data</button>
+      </form>
+
+      <div id="health-message" class="message hidden"></div>
+    </section>
+
+    <section class="card">
+      <h2>New Alerts</h2>
+      <div id="new-alerts" class="list">
+        <div class="list-item">No alerts created yet.</div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>

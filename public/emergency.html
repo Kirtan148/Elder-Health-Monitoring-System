@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emergency</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <script src="/js/app.js" defer></script>
+</head>
+<body data-page="emergency">
+  <div class="page-shell">
+    <div id="app-nav"></div>
+
+    <section class="card">
+      <h1>Emergency Button</h1>
+      <p class="small-text">This page is available only for parents.</p>
+      <button id="emergency-button" type="button">Trigger Emergency</button>
+      <div id="emergency-message" class="message hidden"></div>
+    </section>
+
+    <section id="emergency-details" class="card hidden">
+      <h2>Emergency Guidance</h2>
+      <p>Please call your local emergency services right away.</p>
+      <p>If available on your device, you can also use <a href="tel:112">112</a>.</p>
+    </section>
+  </div>
+</body>
+</html>

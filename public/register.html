@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <script src="/js/app.js" defer></script>
+</head>
+<body data-page="register">
+  <div class="page-shell">
+    <div id="app-nav"></div>
+
+    <section class="card">
+      <h1>Register</h1>
+      <p class="small-text">Create a simple account to use the system.</p>
+
+      <form id="register-form" class="form-grid">
+        <div>
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required>
+        </div>
+
+        <div>
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required>
+        </div>
+
+        <div>
+          <label for="password">Password</label>
+          <input id="password" name="password" type="password" required>
+        </div>
+
+        <div>
+          <label for="role">Role</label>
+          <select id="role" name="role" required>
+            <option value="care_manager">Care Manager</option>
+            <option value="parent">Parent</option>
+            <option value="child">Child</option>
+          </select>
+        </div>
+
+        <div id="register-patient-field" class="hidden">
+          <label for="register-patientId">Assigned Patient ID</label>
+          <input id="register-patientId" name="patientId" type="text" placeholder="Enter patientId">
+          <p class="small-text">Required for parent and child accounts.</p>
+        </div>
+
+        <button type="submit">Register</button>
+      </form>
+
+      <div id="register-message" class="message hidden"></div>
+
+      <p class="small-text">Already registered? <a href="/login.html">Go to login</a>.</p>
+    </section>
+  </div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "elder-health-monitoring-system",
+  "version": "1.0.0",
+  "description": "Simple Express backend for an Elder Health Monitoring System",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^8.13.2"
+  }
+}

@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Patient History</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <script src="/js/app.js" defer></script>
+</head>
+<body data-page="history">
+  <div class="page-shell">
+    <div id="app-nav"></div>
+
+    <section class="card">
+      <h1>Patient History</h1>
+      <p class="small-text">Choose a patient to load health records.</p>
+
+      <form id="history-form" class="form-grid">
+        <div>
+          <label for="patientId">Patient</label>
+          <select id="patientId" name="patientId" required>
+            <option value="">Loading patients...</option>
+          </select>
+          <p class="small-text">Selected patientId: <span id="selected-history-patient-id">Not selected</span></p>
+        </div>
+
+        <button type="submit">Load History</button>
+      </form>
+
+      <div id="history-message" class="message hidden"></div>
+    </section>
+
+    <section class="card">
+      <div id="history-list" class="list">
+        <div class="list-item">No health records loaded yet.</div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>

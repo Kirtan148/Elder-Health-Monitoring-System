@@ -41,7 +41,11 @@ To provide a reliable and user-friendly platform for continuous health monitorin
 (Add your Render link here)
 
 📸 Screenshots
+Screenshot 2026-03-27 184042.png
 
+Screenshot 2026-03-27 184148.png
+
+Screenshot 2026-03-27 184113.png
 
 🤖 AI Usage
 AI tools (ChatGPT) were used only for guidance, debugging, and understanding concepts. The implementation, logic, and testing were done independently.

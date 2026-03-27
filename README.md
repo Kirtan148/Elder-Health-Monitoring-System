@@ -40,12 +40,16 @@ To provide a reliable and user-friendly platform for continuous health monitorin
 🌐 Live Demo
 (Add your Render link here)
 
-📸 Screenshots
-Screenshot 2026-03-27 184042.png
+## 📸 Screenshots
 
-Screenshot 2026-03-27 184148.png
+### Dashboard
+![Dashboard](Dashboard.png)
 
-Screenshot 2026-03-27 184113.png
+### Patient History
+![Patient History](Patient_History.png)
+
+### Edit Page
+![Edit](edit.png)
 
 🤖 AI Usage
 AI tools (ChatGPT) were used only for guidance, debugging, and understanding concepts. The implementation, logic, and testing were done independently.

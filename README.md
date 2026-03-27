@@ -1,11 +1,11 @@
-🏥 Elder Health Monitoring System
+## 🏥 Elder Health Monitoring System
 
-📌 Overview
+## 📌 Overview
 The Elder Health Monitoring System is a full-stack web application designed to assist caregivers in monitoring the health of elderly patients. It enables real-time tracking of vital parameters and provides alerts for abnormal conditions, ensuring timely medical attention.
-🎯 Objective
+## 🎯 Objective
 To provide a reliable and user-friendly platform for continuous health monitoring and improved patient safety.
 
-🚀 Features
+## 🚀 Features
 - Add and manage patient records
 - Monitor vital signs:
   - Heart Rate
@@ -16,12 +16,12 @@ To provide a reliable and user-friendly platform for continuous health monitorin
 - Unique Patient ID system
 - Handles multiple alerts simultaneously
 
-🛠 Tech Stack
+## 🛠 Tech Stack
 - Frontend: HTML, CSS, JavaScript
 - Backend: Node.js, Express.js
 - Database: MongoDB
 
-📂 How to Run
+## 📂 How to Run
 1. Clone the repository:
    git clone https://github.com/Kirtan148/Elder-Health-Monitoring-System.git
 
@@ -37,7 +37,7 @@ To provide a reliable and user-friendly platform for continuous health monitorin
 5. Open:
    http://localhost:3000
 
-🌐 Live Demo
+## 🌐 Live Demo
 (Add your Render link here)
 
 ## 📸 Screenshots
